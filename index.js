@@ -1,8 +1,8 @@
 const express=require('express');
-
+const cors=require('cors');
 
 const app=express();
-
+app.use(cors());
 require('dotenv/config');//i will be able to use specific constant to get the value from env file
 
 
